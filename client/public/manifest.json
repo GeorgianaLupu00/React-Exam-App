@@ -1,0 +1,8 @@
+{
+  "short_name": "Exam App",
+  "name": "Exam App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#ffffff"
+}

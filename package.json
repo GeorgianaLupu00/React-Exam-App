@@ -1,0 +1,44 @@
+{
+  "name": "Exam App",
+  "version": "2.1.0",
+  "description": "Platforma de testare online",
+  "main": "index.js",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "7.19.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "formik": "^2.2.9",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "multer": "^1.4.2",
+    "normalize": "^0.3.1",
+    "path": "^0.12.7",
+    "randomatic": "^3.1.1",
+    "react-bootstrap": "^2.5.0",
+    "react-file-base64": "^1.0.3",
+    "react-redux": "^8.0.2",
+    "react-simple-maps": "^3.0.0",
+    "react-tooltip": "^4.2.21",
+    "reactjs-popup": "^2.0.5",
+    "server": "^1.0.37"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
